@@ -5,7 +5,7 @@ It uses CSS layout & position, Pseudo Classes & Elements, and Media Queries.
 5/21/2024
 
 1. Added a simple Mario game using CSS animation. Hover your cursor on the Mario to make it drive to the endpoint.
-2. Changed the original :hover li picture from simple (top: -10px;)motion to CSS animation for a smoother transition effect.
+2. Changed the original <:hover li picture> from simple (top: -10px;)motion to CSS animation for a smoother transition effect.
 
 5/22/2024
 
