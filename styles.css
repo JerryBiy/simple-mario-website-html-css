@@ -1,20 +1,26 @@
-body, ul, li, h1, h2, a{
+body,
+ul,
+li,
+h1,
+h2,
+a {
     margin: 0;
     padding: 0;
     font-family: arial;
 }
 
-header{
+header {
     background-color: #F63232;
     padding: 20px;
     text-align: center;
     position: fixed;
-    width:100%;
+    width: 100%;
     z-index: 1;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
 }
-header h1{
+
+header h1 {
     color: white;
     border: 8px solid white;
     background-color: #F63232;
@@ -22,96 +28,116 @@ header h1{
     display: inline-block;
     border-radius: 36px;
 }
-.banner{
+
+.banner {
     position: relative;
 }
-.banner img{
+
+.banner img {
     max-width: 100%;
     padding: 0;
 }
-.banner .welcome{
+
+.banner .welcome {
     background-color: #FEB614;
     color: white;
     padding: 30px;
     position: absolute;
     left: 0;
-    top:30%
+    top: 30%
 }
-.banner h2{
+
+.banner h2 {
     font-size: 74px;
 }
-.banner h2 span{
+
+.banner h2 span {
     font-size: 1.3em;
 }
-nav{
+
+nav {
     background-color: #F4F4F4;
     padding: 20px;
     position: sticky;
     top: 103px;
 }
-nav ul{
+
+nav ul {
     white-space: nowrap;
     max-width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-nav li{
+
+nav li {
     width: 25%;
     display: inline-block;
     font-size: 24px;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
-    color:#4B4B4B;
+    color: #4B4B4B;
 }
-nav li a.join{
-    color:#F63232;
+
+nav li a.join {
+    color: #F63232;
 }
-main{
+
+main {
     max-width: 100%;
     width: 1200px;
     margin: 80px auto;
     padding: 0 40px;
     box-sizing: border-box;
 }
-article h2{
+
+article h2 {
     color: #F63232;
     font-size: 48px;
 }
-article p{
+
+article p {
     line-height: 2em;
-    color:#4B4B4B;
+    color: #4B4B4B;
 }
-.images{
-    text-align:center;
+
+.images {
+    text-align: center;
     margin: 80px 0;
     white-space: nowrap;
 }
-.images li{
+
+.images li {
     display: inline-block;
-    width:40%;
-    margin:20px 5%;
+    width: 40%;
+    margin: 20px 5%;
     transition: transform 0.3s 0.1s ease;
 }
-.images li img{
+
+.images li img {
     max-width: 100%;
 }
-section.join{
+
+section.join {
     background: #F4F4f4;
     text-align: center;
     padding: 60px 20px;
-    color:#4b4b4b;
+    color: #4b4b4b;
 }
-.join h2{
+
+.join h2 {
     font-size: 36px;
 }
-form input{
+
+form input {
     margin: 20px 0;
     padding: 10px 20px;
     font-size: 24px;
     border-radius: 20px;
-    border:4px solid white;
+    border: 4px solid white;
 }
-footer{
+
+footer {
     background: #f63232;
     color: white;
     padding: 10px;
@@ -120,70 +146,81 @@ footer{
 
 /* pseudo classes*/
 
-header h1:hover{
+header h1:hover {
     transition: 1s;
     transition-delay: 0.2s;
     transition-timing-function: ease-in-out;
     transform: rotate(360deg);
 }
 
-nav li a:hover{
+nav li a:hover {
     text-decoration: underline;
 }
-.images li:hover{
+
+.images li:hover {
     position: relative;
     transform: translateY(-40px);
 }
-form input:focus{
+
+form input:focus {
     border: 4px dashed #4b4b4b;
     outline: none;
 }
-form input:valid{
-    border:dashed aquamarine;
+
+form input:valid {
+    border: dashed aquamarine;
 }
-article p::first-line{
+
+article p::first-line {
     font-weight: bold;
     font-size: 1.2em;
 }
-p::selection{
+
+p::selection {
     background-color: #f63232;
-    color:white;
+    color: white;
 }
+
 @media screen and (max-width: 1400px) {
 
-    .banner .welcome h2{
+    .banner .welcome h2 {
         font-size: 55px;
     }
-    nav li{
+
+    nav li {
         font-size: 18px;
     }
 }
 
 @media screen and (max-width: 960px) {
 
-    .banner .welcome h2{
+    .banner .welcome h2 {
         font-size: 40px;
     }
 }
 
 @media screen and (max-width: 700px) {
 
-    .banner .welcome{
+    .banner .welcome {
         position: relative;
         text-align: center;
         padding: 11px;
     }
-    .banner .welcome br{
+
+    .banner .welcome br {
         display: none;
     }
-    .banner .welcome h2{
+
+    .banner .welcome h2 {
         font-size: 26px;
     }
-    .banner .welcome span{
+
+    .banner .welcome span {
         font-size: 1em;
     }
-    .images li{
-        width:100%;
+
+    .images li {
+        width: 100%;
         margin: 20px auto;
         display: block;
     }
@@ -191,20 +228,23 @@ p::selection{
 
 @media screen and (max-width: 560px) {
 
-    nav li{
+    nav li {
         font-size: 20px;
         display: block;
         width: 100%;
         margin: 12px 0;
     }
-    nav{
-        top:0;
+
+    nav {
+        top: 0;
     }
-    header{
+
+    header {
         position: relative;
     }
 }
-.road{
+
+.road {
     position: relative;
     height: 30%;
     background: dimgrey;
@@ -212,33 +252,33 @@ p::selection{
     border-top: 10px solid grey;
     border-bottom: 10px solid grey;
     width: 100%;
-  }
-  
-  .lines{
+}
+
+.lines {
     box-sizing: border-box;
     border: 5px dashed #fff;
     height: 0px;
     width: 100%;
     position: absolute;
     top: 45%;
-  }
-  
-  /*// ELEMENTS TO ANIMATE //*/
-  .mario{
+}
+
+/*// ELEMENTS TO ANIMATE //*/
+.mario {
     position: absolute;
     top: -40px;
-    left:0px;
-  }
+    left: 0px;
+}
 
-  .mario:hover{
+.mario:hover {
     animation-name: drive;
     animation-duration: 4s;
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(.59,.16,.26,.58);
-  }
-  
-  .luigi{
+    animation-timing-function: cubic-bezier(.59, .16, .26, .58);
+}
+
+.luigi {
     position: absolute;
     top: 60px;
     animation-name: drive;
@@ -248,11 +288,16 @@ p::selection{
     animation-direction: alternate;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-  }
-  
-  /*// KEYFRAMES //*/
-  
-  @keyframes drive{
-    from{ transform: translateX(0)}
-    to{ transform: translateX(1380px)}
-  }
+}
+
+/*// KEYFRAMES //*/
+
+@keyframes drive {
+    from {
+        transform: translateX(0)
+    }
+
+    to {
+        transform: translateX(1380px)
+    }
+}
