@@ -4,13 +4,14 @@ It uses CSS layout & position, Pseudo Classes & Elements, and Media Queries.
 
 5/21/2024
 
-1. Added a simple Mario game using CSS animation. Hover your cursor on the Mario to make it drive to the end point.
+1. Added a simple Mario game using CSS animation. Hover your cursor on the Mario to make it drive to the endpoint.
 2. Changed the original :hover li picture from simple (top: -10px;)motion to CSS animation for a smoother transition effect.
 
 5/22/2024
 
-1. Added element of luigi.
-2. Luigi will infinitly going back and forth with ease-in-out effect.
-3. Used cubic-bezier to make Mario change speed.
-4. Made the road longer to fit the full screen.
-5. Make the header "Nintendo Club" rotate when hover.
+1. Added element of Luigi.
+2. Luigi will infinitely go back and forth with ease-in-out effect.
+3. Luigi will jump one time.
+4. Used cubic-bezier to make Mario change speed.
+5. Made the road longer to fit the full screen.
+6. Made the header "Nintendo Club" rotate when hovering.
