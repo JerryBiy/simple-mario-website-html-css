@@ -21,3 +21,8 @@ It uses CSS layout & position, Pseudo Classes & Elements, and Media Queries.
 1. Added element of cloud.
 2. Added sky and grass background to the article.
 3. Clouds will move infinitely from right to left.
+
+5/24/2024
+
+1. Added element of mushrooms.
+2. When hover on the big M in the banner, mushroom rain will start.
