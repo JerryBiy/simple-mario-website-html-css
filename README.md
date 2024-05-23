@@ -15,3 +15,9 @@ It uses CSS layout & position, Pseudo Classes & Elements, and Media Queries.
 4. Used cubic-bezier to make Mario change speed.
 5. Made the road longer to fit the full screen.
 6. Made the header "Nintendo Club" rotate when hovering.
+
+5/23/2024
+
+1. Added element of cloud.
+2. Added sky and grass background to the article.
+3. Cloud will move infinitly from right to left.
