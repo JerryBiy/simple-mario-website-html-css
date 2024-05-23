@@ -92,6 +92,35 @@ main {
     box-sizing: border-box;
 }
 
+.mario-background {
+    background: linear-gradient(to bottom, #049cd8 70%, #43b047 30%);
+    position: relative;
+    padding: 0;
+    z-index: 0;
+    overflow: hidden; /* Ensure cloud stays within bounds */
+}
+
+.cloud{
+    position: absolute;
+    top: 30px;
+    z-index: -1;
+}
+
+.cloud:nth-child(1){
+    width: 200px;
+    top:140px;
+    opacity: 0.5;
+    animation: wind 60s linear infinite reverse;
+}
+.cloud:nth-child(2){
+    animation: wind 60s linear infinite reverse;
+}
+.cloud:nth-child(3){
+    top:250px;
+    width: 160px;
+    opacity: 0.8;
+    animation: wind2 30s ease-in infinite reverse;
+}
 article h2 {
     color: #F63232;
     font-size: 48px;
@@ -99,7 +128,7 @@ article h2 {
 
 article p {
     line-height: 2em;
-    color: #4B4B4B;
+    color: white;
 }
 
 .images {
@@ -173,6 +202,7 @@ form input:valid {
 }
 
 article p::first-line {
+    color:black;
     font-weight: bold;
     font-size: 1.2em;
 }
@@ -309,4 +339,14 @@ p::selection {
     0%{ top: 60px}
     50%{ top: 0px}
     100%{ top: 60px}
+}
+
+@keyframes wind {
+    from{left: -300px}
+    to{left:100%}
+}
+
+@keyframes wind2 {
+    from{left: -100px}
+    to{left:100%}
 }
