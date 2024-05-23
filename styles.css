@@ -60,6 +60,7 @@ nav {
     padding: 20px;
     position: sticky;
     top: 103px;
+    z-index: 2;
 }
 
 nav ul {
