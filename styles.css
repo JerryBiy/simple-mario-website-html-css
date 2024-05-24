@@ -29,6 +29,10 @@ header h1 {
     border-radius: 36px;
 }
 
+.big-m:hover{
+    color: #F63232;
+}
+
 .mushroom{
     position: absolute;
     top:-600px;
