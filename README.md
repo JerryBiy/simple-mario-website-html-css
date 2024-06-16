@@ -1,5 +1,6 @@
 A very simple website project on the theme Mario Club for me to practice HTML and CSS.
 It uses CSS layout & position, Pseudo Classes & Elements, and Media Queries.
+
 https://jerrybiy.github.io/simple-mario-website-html-css/
 
 
